@@ -1,5 +1,6 @@
 
-
+CREATE USER 'sec_user1'@'localhost' IDENTIFIED BY 'Password123!';
+GRANT SELECT, INSERT, UPDATE ON `dealership_system`.* TO 'sec_user1'@'localhost';
 
 CREATE SCHEMA `dealership-system`;
 
